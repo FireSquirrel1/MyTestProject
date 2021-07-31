@@ -37,11 +37,4 @@ public class SelenoidTest {
         open("https://www.ereality.ru/");
         $x("//*[contains(Новости Гра')]").shouldBe(Condition.visible);
     }
-
-    @Test
-    @Step
-    void thirdTest(){
-        open("https://www.ereality.ru/");
-        $x("//*[contains(Новости Гра')]").shouldBe(Condition.visible);
-    }
 }
