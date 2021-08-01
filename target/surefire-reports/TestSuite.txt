@@ -1,22 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.684 sec <<< FAILURE!
-secondTest(SelenoidTest)  Time elapsed: 0.288 sec  <<< FAILURE!
-org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[contains(teĞĞ¾Ğ²Ğ¾ÑÑ‚Ğ¸ Ğ“Ñ€Ğ°Ğ½ĞµĞ¹')] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[contains(teĞĞ¾Ğ²Ğ¾ÑÑ‚Ğ¸ Ğ“Ñ€Ğ°Ğ½ĞµĞ¹')]' is not a valid XPath expression.
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.592 sec <<< FAILURE!
+secondTest(SelenoidTest)  Time elapsed: 0.261 sec  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[contains(Íîâîñòè Ãğà')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[contains(Íîâîñòè Ãğà')]' is not a valid XPath expression.
   (Session info: chrome=91.0.4472.106)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'VRN118', ip: '192.168.32.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+System info: host: 'VRN118', ip: '192.168.32.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /tmp/.com.google.Chrome.wd88lO}, goog:chromeOptions: {debuggerAddress: localhost:45221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c937b9e5732a45e4bf64f15122c636b3
-*** Element info: {Using=xpath, value=//*[contains(teĞĞ¾Ğ²Ğ¾ÑÑ‚Ğ¸ Ğ“Ñ€Ğ°Ğ½ĞµĞ¹')]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /tmp/.com.google.Chrome.epodaZ}, goog:chromeOptions: {debuggerAddress: localhost:33791}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c7986a77f4a81c0dc9efefc92f17105
+*** Element info: {Using=xpath, value=//*[contains(Íîâîñòè Ãğà')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -36,6 +36,6 @@ Session ID: c937b9e5732a45e4bf64f15122c636b3
 	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
-	at com.sun.proxy.$Proxy12.shouldBe(Unknown Source)
-	at SelenoidTest.secondTest(SelenoidTest.java:37)
+	at com.sun.proxy.$Proxy10.shouldBe(Unknown Source)
+	at SelenoidTest.secondTest(SelenoidTest.java:38)
 
