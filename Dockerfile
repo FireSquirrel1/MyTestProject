@@ -1,9 +1,6 @@
 FROM maven:3.6.3-ibmjava-8
 
-RUN mkdir /MyTestProject
+COPY . /usr/src/MyTestProject
+WORKDIR /usr/src/MyTestProject
 
-WORKDIR /MyTestProject
-
-COPY . .
-
-CMD "mvn test"
+CMD ["mvn", "test"]
